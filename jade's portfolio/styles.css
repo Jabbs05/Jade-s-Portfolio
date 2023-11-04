@@ -340,6 +340,9 @@ nav button a {
     #home .pfp-bg {
         margin-top: 7rem;
     }
+    html{
+        overflow-x: hidden;
+    }
 }
 @media(max-width: 885px) {
     #home {
@@ -356,6 +359,9 @@ nav button a {
     #home main figcaption {
         width: 6.5rem;
         font-size: 14px;
+    }
+    html{
+        overflow-x: hidden;
     }
     #home .pfp-bg {
         margin-left: -1.9rem;
@@ -397,6 +403,9 @@ nav button a {
     #home {
         height: fit-content;
     }
+    html{
+        overflow-x: hidden;
+    }
     #home h1 {
         font-size: 50px;
     }
@@ -423,6 +432,9 @@ nav button a {
     #home .pfp-bg img {
         width: 15rem;
         margin-top: -2.5rem;
+    }
+    html{
+        overflow-x: hidden;
     }
 }
 @media(max-width: 550px) {
@@ -525,8 +537,12 @@ nav button a {
     nav ol li button {
         display: none;
     }
+    
     #home .pfp-bg {
         margin-left: -4.5rem;
+    }
+    html{
+        overflow-x: hidden;
     }
 }
 
@@ -538,6 +554,9 @@ nav button a {
     }
     nav .icon {
         display: block;
+    }  
+    html{
+        overflow-x: hidden;
     }
     .icon {
         background-color: transparent;
@@ -751,11 +770,17 @@ nav button a {
         width: 95vw;
         margin-left: -14vw !important;
     }
+    html{
+        overflow-x: hidden;
+    }
 }
 @media(max-width: 377px) {
     #home .pfp-bg {
         width: 95vw;
         margin-left: -15vw !important;
+    }
+    html{
+        overflow-x: hidden;
     }
 }
 @media(max-width: 362px) {
@@ -763,10 +788,16 @@ nav button a {
         width: 95vw;
         margin-left: -16vw !important;
     }
+    html{
+        overflow-x: hidden;
+    }
 }
 @media(max-width: 325px) {
     #home .pfp-bg {
         width: 95vw;
         margin-left: -17vw !important;
+    }
+    html{
+        overflow-x: hidden;
     }
 }
